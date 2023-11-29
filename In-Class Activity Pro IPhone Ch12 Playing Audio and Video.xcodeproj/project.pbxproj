@@ -14,6 +14,7 @@
 		3F128C8D2B16CBC300813842 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F128C8C2B16CBC300813842 /* AudioView.swift */; };
 		3F128C8F2B16CBD200813842 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F128C8E2B16CBD200813842 /* VideoView.swift */; };
 		3F128C912B16CE7400813842 /* Chickadee.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3F128C902B16CE7400813842 /* Chickadee.mp3 */; };
+		3F128C962B16DD9600813842 /* nature-walk.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3F128C952B16DD9600813842 /* nature-walk.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,7 @@
 		3F128C8C2B16CBC300813842 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
 		3F128C8E2B16CBD200813842 /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		3F128C902B16CE7400813842 /* Chickadee.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Chickadee.mp3; path = ../../../Downloads/Chickadee.mp3; sourceTree = "<group>"; };
-		3F128C942B16D3F300813842 /* natureWalk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = natureWalk.mp4; path = ../../natureWalk.mp4; sourceTree = "<group>"; };
+		3F128C952B16DD9600813842 /* nature-walk.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nature-walk.mp4"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +64,7 @@
 				3F128C8C2B16CBC300813842 /* AudioView.swift */,
 				3F128C8E2B16CBD200813842 /* VideoView.swift */,
 				3F128C902B16CE7400813842 /* Chickadee.mp3 */,
-				3F128C942B16D3F300813842 /* natureWalk.mp4 */,
+				3F128C952B16DD9600813842 /* nature-walk.mp4 */,
 				3F128C822B16CA1400813842 /* Assets.xcassets */,
 				3F128C842B16CA1400813842 /* Preview Content */,
 			);
@@ -137,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F128C862B16CA1400813842 /* Preview Assets.xcassets in Resources */,
+				3F128C962B16DD9600813842 /* nature-walk.mp4 in Resources */,
 				3F128C912B16CE7400813842 /* Chickadee.mp3 in Resources */,
 				3F128C832B16CA1400813842 /* Assets.xcassets in Resources */,
 			);
