@@ -11,16 +11,25 @@ import SwiftUI
 struct AudioView: View {
     @State var playAudio = true
     var body: some View {
-        Button(action: {
-            if playAudio {
-                playSound(sound: "Chickadee", type: "mp3")
-            } else {
-                stopSound()
+        VStack{
+            VStack{
+                Text("This is what a ")
+                Text("chickadee sounds like:")
             }
-            playAudio.toggle()
-        }, label: {
-            Text(playAudio ? "Start the bird" : "Stop the bird")
-        })
+            .font(.largeTitle)
+            .padding()
+            Button(action: {
+                if playAudio {
+                    playSound(sound: "Chickadee", type: "mp3")
+                } else {
+                    stopSound()
+                }
+                playAudio.toggle()
+            }, label: {
+                Image( systemName: playAudio ? "play.fill" : "stop")
+            })
+            .padding()
+        }
     }
 }
 
